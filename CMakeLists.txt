@@ -3,6 +3,8 @@ project(assignment2)
 
 set(CMAKE_CXX_STANDARD 11)
 
+add_executable(test_card test_card.cpp ../Card.cpp)
+
 add_executable(test_deck test_deck.cpp ../Card.cpp ../Deck.cpp ../Hand.cpp)
 add_executable(test_hand test_hand.cpp ../Card.cpp ../Hand.cpp ../Deck.cpp)
 add_executable(test_player test_player.cpp ../Card.cpp ../Hand.cpp ../Deck.cpp ../Player.cpp)
