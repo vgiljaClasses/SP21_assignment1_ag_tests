@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(assignment2)
+project(assignment1_tests)
 
 set(CMAKE_CXX_STANDARD 11)
 
